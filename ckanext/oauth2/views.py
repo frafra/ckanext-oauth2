@@ -36,7 +36,7 @@ def _get_previous_page(default_page):
 
     return came_from_url
 
-@oauth2.route('/user/login')
+@oauth2.route('/oauth2/user/login')
 def login():
     log.debug('login')
 
